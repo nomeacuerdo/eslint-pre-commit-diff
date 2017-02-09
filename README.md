@@ -1,5 +1,8 @@
 # Библиотека для проверки изменненых кусков кода с помощью ESLint
 
+## Установка
+<code>npm i eslint-pre-commit-diff -D</code>
+
 ## Использование
 В <code>package.json</code> нужно добавить поле
 <pre>
