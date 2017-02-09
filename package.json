@@ -1,0 +1,31 @@
+{
+  "name": "eslint-pre-commit-diff",
+  "version": "1.0.0",
+  "description": "Eslint only the changed lines in the commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evless/eslint-pre-commit-diff.git"
+  },
+  "keywords": [
+    "eslint",
+    "linter",
+    "git",
+    "commit",
+    "pre-commit",
+    "hook"
+  ],
+  "author": "Evless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evless/eslint-pre-commit-diff/issues"
+  },
+  "homepage": "https://github.com/evless/eslint-pre-commit-diff#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "eslint": "^3.15.0"
+  }
+}
