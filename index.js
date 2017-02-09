@@ -1,2 +1,2 @@
-let start = require('./lib/start');
+const start = require('./lib/start');
 start();

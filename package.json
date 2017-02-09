@@ -26,6 +26,7 @@
   "homepage": "https://github.com/evless/eslint-pre-commit-diff#readme",
   "dependencies": {
     "cli-table": "^0.3.1",
-    "eslint": "^3.15.0"
+    "eslint": "^3.15.0",
+    "minimist": "^1.2.0"
   }
 }

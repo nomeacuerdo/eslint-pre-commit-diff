@@ -1,0 +1,94 @@
+env:
+  browser: true
+  es6: true
+parserOptions:
+  sourceType: module
+rules:
+    no-debugger:
+        - error
+    no-dupe-args:
+        - error
+    no-dupe-keys:
+        - error
+    no-duplicate-case:
+        - error
+    no-empty:
+        - error
+    use-isnan:
+        - error
+    curly:
+        - error
+    default-case:
+        - error
+    dot-notation:
+        - error
+    eqeqeq:
+        - error
+        - always
+    no-else-return:
+        - error
+    no-eq-null:
+        - error
+    no-floating-decimal:
+        - error
+    no-multi-spaces:
+        - error
+    no-new-func:
+        - error
+    no-redeclare:
+        - error
+    no-return-assign:
+        - error
+    no-unmodified-loop-condition:
+        - error
+    no-useless-call:
+        - error
+    yoda:
+        - error
+        - always
+    strict:
+        - error
+        - global
+    array-bracket-spacing:
+        - error
+        - never
+    brace-style:
+        - error
+    comma-spacing:
+        - error
+        - { before: false, after: true }
+    computed-property-spacing:
+        - error
+        - never
+    func-call-spacing:
+        - error
+        - never
+    indent:
+        - warn
+        - 4
+        - {SwitchCase: 1}
+    key-spacing:
+        - error
+    keyword-spacing:
+        - error
+        - { before: true, after: true }
+    newline-before-return:
+        - error
+    no-mixed-spaces-and-tabs:
+        - error
+    no-multiple-empty-lines:
+        - error
+        - { max: 2, maxBOF: 1 }
+    no-whitespace-before-property:
+        - error
+    object-property-newline:
+        - error
+    quotes:
+        - error
+        - single
+    semi:
+        - error
+    space-before-blocks:
+        - error
+    space-infix-ops:
+        - error
