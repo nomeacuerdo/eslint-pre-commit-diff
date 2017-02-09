@@ -4,7 +4,7 @@
 В <code>package.json</code> нужно добавить поле
 <pre>
     "scripts": {
-        "preCommitLinter": "node eslint-pre-commit-diff"
+        "preCommitLinter": "node node_modules/eslint-pre-commit-diff --path app"
     }
     // ...
     "pre-commit": {
