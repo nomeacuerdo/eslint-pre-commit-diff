@@ -7,7 +7,7 @@
 В <code>package.json</code> нужно добавить поле
 <pre>
     "scripts": {
-        "preCommitLinter": "node node_modules/eslint-pre-commit-diff --path app"
+        "preCommitLinter": "node node_modules/eslint-pre-commit-diff --folder app"
     }
     // ...
     "pre-commit": {
@@ -17,7 +17,7 @@
 
 На вход принимаются 2 параметра:
 
-<code>--path</code> - Название папки, которое должно присутствовать в пути до файла. @default: ''
+<code>--folder</code> - Название папки, которое должно присутствовать в пути до файла. @default: ''
 
 <code>--file-type</code> - Какой тип файлов нужно проверять. @default: '.js'
 
