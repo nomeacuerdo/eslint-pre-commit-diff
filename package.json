@@ -1,6 +1,6 @@
 {
   "name": "eslint-pre-commit-diff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint only the changed lines in the commit",
   "main": "index.js",
   "scripts": {
