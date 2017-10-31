@@ -1,13 +1,13 @@
-# Библиотека для проверки изменненых кусков кода с помощью ESLint
+This is a fork of [https://github.com/evless/eslint-pre-commit-diff|eslint-pre-commit-diff], translated to english.
 
-## Установка
-<code>npm i eslint-pre-commit-diff -D</code>
+## Installation
+<code>npm i eslint-pre-commit-diff-en -D</code>
 
-## Использование
-В <code>package.json</code> нужно добавить поле
+## Usage
+<code>package.json</code>
 <pre>
     "scripts": {
-        "preCommitLinter": "node node_modules/eslint-pre-commit-diff --folder app"
+        "preCommitLinter": "node node_modules/eslint-pre-commit-diff-en --folder app"
     }
     // ...
     "pre-commit": {
@@ -15,16 +15,8 @@
     }
 </pre>
 
-На вход принимаются 2 параметра:
+## Options
 
-<code>--folder</code> - Название папки, которое должно присутствовать в пути до файла. @default: ''
+<code>--folder</code> - @default: ''
 
-<code>--file-type</code> - Какой тип файлов нужно проверять. @default: '.js'
-
-
-## История
-В одном из проектов нужно было внедрить линтер для проверки кодстайла. Но как выяснилось было много разработчиком и еще больше легаси кода. Ошибок линтер находил больше 500к, руками править долго, а автофиксер не подходил из-за старых и объемных кусков кода. Поскольку разработчиков много, а времени на мерджреквесты не всегда найти для тщательной проверки, решили выбрать такой вариант: Перед коммитов проверять изменненый/новй код разработчика и не давать ему сделать коммит, пока он не поправит его по оговоренным правилам.
-
-
-## Краткое описание
-Используется библиотека <code>pre-commit</code> для вызова функции проверки. Она собирает все измененные файлы в данный момент, прогоняет их через <code>eslint</code> и оставляет только те куски кода, которые были изменены, что упрощает головную боль разработчикам и снимает её с кодревью.
+<code>--file-type</code> - @default: '.js'
