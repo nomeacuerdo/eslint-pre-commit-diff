@@ -1,4 +1,4 @@
-This is a fork of [https://github.com/evless/eslint-pre-commit-diff|eslint-pre-commit-diff], translated to english.
+This is a fork of [eslint-pre-commit-diff](https://github.com/evless/eslint-pre-commit-diff), translated to english.
 
 ## Installation
 <code>npm i eslint-pre-commit-diff-en -D</code>
